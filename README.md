@@ -12,6 +12,13 @@ Warning! PATH is not properly set up, '/home/lecco/.rvm/gems/ruby-2.3.0/bin' is 
 PATH="$GEM_HOME/bin:$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
 [ -s ${HOME}/.rvm/scripts/rvm ] && source ${HOME}/.rvm/scripts/rvm
 -------------------------------------------------------------------------------
+RAILS
+
+/home/lecco/Dropbox/rails/blog/bin/spring:11:in `<top (required)>': undefined method `path_separator' for Gem:Module (NoMethodError)
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+
+gem pristine --all 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
