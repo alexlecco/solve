@@ -35,6 +35,18 @@ git add ARCHIVOS
 git commit -m "[BRANCH TRABAJADO]commit"
 git push
 -------------------------------------------------------------------------------
+Update nodejs:
+
+downgrade node to 0.10.36
+  sudo npm cache clean -f
+  sudo npm install -g n
+  sudo n 0.10.36
+
+upgrade node to stable v
+  sudo npm cache clean -f
+  sudo npm install -g n
+  sudo n stable
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
