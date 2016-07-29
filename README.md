@@ -48,6 +48,13 @@ upgrade node to stable v
   sudo n stable
 
 -------------------------------------------------------------------------------
+Unrecognized VM option 'MaxPermSize=350m'
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+i solved the problem changing the JAVA_HOME value to:
+JAVA_HOME=/usr/lib/jvm/jdk1.8.0_60
+and i added it to /etc/environment file.
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
