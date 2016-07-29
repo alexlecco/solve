@@ -56,6 +56,16 @@ i solved the problem changing the JAVA_HOME value to:
 JAVA_HOME=/usr/lib/jvm/jdk1.8.0_60
 and i added it to /etc/environment file.
 -------------------------------------------------------------------------------
+-react native could not connect to development server android
+
+Delete the App from your phone! I tried several steps, but that did it eventually.
+
+1- If you tried to run your app before but failed, delete it from your android device.
+2- Run $ react-native run-android
+3- Open the React Rage Shake Menu from within your app on your android device, go to Dev Settings and then to Debug server host & port for device. There enter your server IP (IP of your computer) and host 8081, e.g. 192.168.50.35:8081. On a mac you can find the IP of your computer at System Preferences -> Network -> Advanced... -> TCP/IP -> IPv4 Address.
+4- Open the Rage Shake Menu again and click Reload JS.
+
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
