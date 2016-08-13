@@ -67,6 +67,21 @@ Delete the App from your phone! I tried several steps, but that did it eventuall
 
 
 -------------------------------------------------------------------------------
+create a program launcher
+
+sudo nano /usr/share/applications/PROGRAM.desktop
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Android Studio
+Exec="/home/username/Programs/AndroidStudio/bin/studio.sh" %f
+Icon=/home/username/Programs/AndroidStudio/bin/idea.png
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=jetbrains-android-studio
+Name[en_GB]=android-studio.desktop
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
