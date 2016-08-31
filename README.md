@@ -95,6 +95,9 @@ Freya - HOW TO FIX INVISIBLE MOUSE CURSOR ISSUE IN eOS freya
 
 gsettings set org.gnome.settings-daemon.plugins.cursor active true
 -------------------------------------------------------------------------------
+Freya - problema doble cursor
+
+gsettings set org.gnome.settings-daemon.plugins.cursor active false
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
