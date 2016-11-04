@@ -117,6 +117,13 @@ Create a Desktop Shortcut on GNOME Desktop
 sudo apt-get install --no-install-recommends gnome-panel 
 sudo gnome-desktop-item-edit /usr/share/applications --create-new 
 -------------------------------------------------------------------------------
+#Linux
+
+-create iso image
+```bash
+dd if=/dev/cdrom of=/home/lecco/cdrom_image.iso
+```
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
