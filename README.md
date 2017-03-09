@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
+#Git
+- to change number of seconds to cache credentials use timeout parameter (30 minutes in this example):
+$ git config credential.helper 'cache --timeout=1800'
+
+-------------------------------------------------------------------------------
+
 # RVM
 
 -PATH is not properly set up
