@@ -67,6 +67,7 @@ $ git config credential.helper 'cache --timeout=1800'
 #Atom
 
 Atom autocomplete HTML tags in JSX files
+in keymap.cson add
 ```
 'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
