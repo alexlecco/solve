@@ -226,6 +226,16 @@ sudo gnome-desktop-item-edit /usr/share/applications --create-new
 -------------------------------------------------------------------------------
 #Linux
 
+GRUB does not detect Windows:
+
+1) Boot Ubuntu and mount your Windows partition (simply open the disk on Nautilus)
+2)Run the following on the command line (Ctrl+Alt+t):
+$ sudo os-prober
+3) If your Windows installation was found, you can run:
+$ sudo update-grub
+
+-------------------------------------------------------------------------------
+
 -create iso image
 ```bash
 dd if=/dev/cdrom of=/home/lecco/cdrom_image.iso
