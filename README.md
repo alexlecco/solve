@@ -225,6 +225,15 @@ sudo gnome-desktop-item-edit /usr/share/applications --create-new
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 #Linux
+-------------------------------------------------------------------------------
+install boot-repair
+
+sudo apt-get install software-properties-common python-software-properties
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+sudo apt-get install boot-repair
+
+-------------------------------------------------------------------------------
 
 GRUB does not detect Windows:
 
