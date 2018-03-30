@@ -45,6 +45,17 @@ npm rebuild node-sass
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 ------------------------------React Native-------------------------------------
+Error when running watchman
+
+20:25:43 [exp] jest-haste-map: Watchman crawl failed. Retrying once with node crawler.
+20:25:43 [exp]   Usually this happens when watchman isn't running. Create an empty `.watchmanconfig` file in your project's root folder or initialize a git or hg repository in your project.
+20:25:43 [exp]   Error: Watchman error: A non-recoverable condition has triggered.  Watchman needs your help!
+
+echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
+echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+watchman shutdown-server
+-------------------------------------------------------------------------------
 windows android unable to load script from assets...
 
 1. (in project directory) mkdir android/app/src/main/assets
