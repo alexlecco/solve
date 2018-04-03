@@ -2,7 +2,7 @@
 exp start jest-haste-map: Watchman crawl failed. Retrying once with node crawler
 
 In Node
-´´´bash
+```bash
 var watchman = require('fb-watchman');
 var client = new watchman.Client();
 client.capabilityCheck({optional:[], required:['relative_root']},
@@ -17,7 +17,7 @@ client.capabilityCheck({optional:[], required:['relative_root']},
     // {'version': '3.8.0', 'capabilities': {'relative_root': true}}
     console.log(resp);
   });
-´´´
+```
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
