@@ -243,6 +243,14 @@ create a program launcher
 sudo nano /usr/share/applications/PROGRAM.desktop
 
 [Desktop Entry]
+Encoding=UTF-8
+Name=Android Studio
+Exec=/home/alexlecco/main/programs/android-studio/bin/studio.sh
+Icon=/usr/share/icons/Numix-Circle/48/apps/android-studio.svg
+Type=Application
+Categories=Development;
+
+[Desktop Entry]
 Version=1.0
 Type=Application
 Name=Android Studio
