@@ -76,6 +76,20 @@ in USER SETTINGS
   },
 }
 -------------------------------------------------------------------------------
+{
+    "breadcrumbs.enabled": true,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "razor": "html",
+        "plaintext": "jade"
+    },
+    "workbench.colorTheme": "Monokai",
+    "window.titleBarStyle": "native"
+}
 -------------------------------------------------------------------------------
 ------------------------------Elementary OS-----------------------------------
 How to disable desktop switch on fullscreen
