@@ -67,7 +67,13 @@ enable Emmet expansion when press tab
 
 in USER SETTINGS
 {
-    "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "vue-html": "html",
+       "razor": "html",
+      "plaintext": "jade"
+  },
 }
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
