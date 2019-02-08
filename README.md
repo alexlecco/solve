@@ -209,6 +209,11 @@ in keymap.cson add
 'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
 ```
+OR
+```
+'atom-text-editor:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+```
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
