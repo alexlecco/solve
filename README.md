@@ -96,6 +96,20 @@ How to disable desktop switch on fullscreen
 
 gsettings set org.pantheon.desktop.gala.behavior dynamic-workspaces false
 -------------------------------------------------------------------------------
+SET AREA SCREENSHOT
+
+Follow @r3bl steps but use this command:
+
+screenshot-tool --screen --clipboard
+this will take a screenshot and save it to the clipboard too. These are all the options you can add:
+
+--window    Capture active window
+--area      Capture area
+--screen    Capture the whole screen
+--delay     Take screenshot after specified delay
+--grab      Include the pointer with the screenshot
+--redact    Redact system text
+--clipboard Save screenshot to clipboard
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 ---------------------------------Rails----------------------------------------
