@@ -27,6 +27,14 @@ rm -rf ~/.android/avd/lollipop-API22.avd/hardware-qemu.ini.lock
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 ------------------------- Expo ------------------------------------------------
+
+connect NOX emulator
+
+Enable "Root" checkbox in nox setting
+Go to setting in nox emulator, turn on developer option, turn on usb debugging
+Go to nox directory, run command: nox_adb.exe connect 127.0.0.1:62001 It works for me :D
+-------------------------------------------------------------------------------
+
 exp start jest-haste-map: Watchman crawl failed. Retrying once with node crawler
 
 In Node
