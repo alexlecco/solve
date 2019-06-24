@@ -17,6 +17,19 @@ $ wget https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable -O /t
 $ sudo dpkg -i /tmp/code_latest_amd64.deb
 
 -------------------------------------------------------------------------------
+zsh: command not found: code
+
+Open the .zshrc file
+$ sudo nano ~/.zshrc
+
+Look for # User configuration
+Un-comment the following line:
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
+Save the file.
+
+$ source ~/.zshrc
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
