@@ -7,7 +7,22 @@ strings .zsh_history_bad > .zsh_history
 fc -R .zsh_history
 
 -------------------------------------------------------------------------------
--------------------------------------------------------------------------------
+-------------------------Elementary OS-----------------------------------------
+No funciona audio despues de conectar HDMI
+
+#switch to the internal sound card
+$ pactl set-card-profile alsa_card.pci-0000_00_1b.0 output:analog-stereo+input:analog-stereo
+$ pactl set-card-profile alsa_card.usb-1130_USB_AUDIO-00 off
+
+#open large pop-up
+$ zenity --warning --title="Headphone is on" --text="<span size='xx-large'>Switch to speakers? (for next phone ring)</span>" --width=1000 --height=500
+
+#when user closes pop-up, switch to the USB sound card
+$ pactl set-card-profile alsa_card.usb-1130_USB_AUDIO-00 output:iec958-stereo
+$ pactl set-card-profile alsa_card.pci-0000_00_1b.0 input:analog-stereo
+
+entrar a la config de audio y seleccionar dispositivo de audio
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -----------------------------VS CODE-----------------------------------------
