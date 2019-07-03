@@ -42,6 +42,16 @@ or
 sudo mkfs.vfat -n 'pendrive32' /dev/sdy1
 
 -------------------------------------------------------------------------------
+install brave browser in eOS Juno
+
+$ curl https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key add -
+
+$ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ bionic main" | sudo tee -a /etc/apt/sources.list.d/brave-browser-release-bionic.list
+
+$ sudo apt update
+
+$ sudo apt install brave-browser brave-keyring
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
