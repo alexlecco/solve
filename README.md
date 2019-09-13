@@ -28,6 +28,11 @@ fc -R .zsh_history
 
 -------------------------------------------------------------------------------
 -------------------------Elementary OS-----------------------------------------
+#fix audio after connect HDMI
+
+$ rm -r ~/.config/pulse; pulseaudio -k
+
+-------------------------------------------------------------------------------
 No funciona audio despues de conectar HDMI
 
 #switch to the internal sound card
