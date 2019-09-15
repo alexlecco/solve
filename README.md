@@ -28,6 +28,12 @@ fc -R .zsh_history
 
 -------------------------------------------------------------------------------
 -------------------------Elementary OS-----------------------------------------
+
+Set audio volume over 100%
+
+gsettings set io.elementary.desktop.wingpanel.sound max-volume 150
+
+-------------------------------------------------------------------------------
 #fix audio after connect HDMI
 
 $ rm -r ~/.config/pulse; pulseaudio -k
