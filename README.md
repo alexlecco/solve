@@ -130,6 +130,20 @@ rm -rf ~/.android/avd/lollipop-API22.avd/hardware-qemu.ini.lock
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 ------------------------- Expo ------------------------------------------------
+expo node_modules/expo/AppEntry.js: Plugin/Preset files are not allowed to export objects, only functions.
+
+1- remove .babelrc file
+2- add to devDependencies “babel-preset-expo”: “^5.0.0”
+
+3- create new file babel.config.js in root and place the following code
+
+module.exports = function(api) {
+    api.cache(true);
+    return {
+        presets: ['babel-preset-expo'],
+    };
+};
+-------------------------------------------------------------------------------
 
 connect NOX emulator
 
