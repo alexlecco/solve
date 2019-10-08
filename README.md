@@ -468,6 +468,10 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 “shake” an Android emulator
 
 adb shell input keyevent KEYCODE_MENU
+
+or
+
+adb shell input keyevent 82
 -------------------------------------------------------------------------------
 Freya - HOW TO FIX INVISIBLE MOUSE CURSOR ISSUE IN eOS freya
 
