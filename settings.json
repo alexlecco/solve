@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#ae00ff",
+        "editor.selectionHighlightBackground": "#ae00ff"
+    },
+}
