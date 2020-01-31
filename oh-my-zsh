@@ -1,0 +1,16 @@
+ZSH_THEME="robbyrussell"
+-----------------------------------------------------
+/home/alexlecco/.oh-my-zsh/themes/
+agnoster.zsh-theme:
+
+# Dir: current working directory
+prompt_dir() {
+  prompt_segment blue $CURRENT_FG '%~'
+}
+
+# Context: user@hostname (who am I and where am I)
+prompt_context() {
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    prompt_segment black default "%(!.%{%F{yellow}%}.)%n@%m"
+  fi
+}
