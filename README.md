@@ -1,3 +1,9 @@
+------------------------------------react-firebase--------------------------------------
+npm start Error: ENOSPC: System limit for number of file watchers reached
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+https://medium.com/@bestafiko/npm-npm-start-error-enospc-system-limit-for-number-of-file-watchers-reached-bdc0eab0a159
 ------------------------------------node--------------------------------------
 
 install NVM and NODE in linux
