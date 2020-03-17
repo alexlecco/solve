@@ -1,3 +1,9 @@
+------------------------------------#linux --------------------------------------
+Set Time, Date Timezone in Linux from Command Line
+https://www.garron.me/en/linux/set-time-date-timezone-ntp-linux-shell-gnome-command-line.html
+
+sudo date +%T -s "13:32:00"
+
 ------------------------------------react-firebase--------------------------------------
 npm start Error: ENOSPC: System limit for number of file watchers reached
 
