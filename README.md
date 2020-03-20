@@ -2,7 +2,11 @@
 Set Time, Date Timezone in Linux from Command Line
 https://www.garron.me/en/linux/set-time-date-timezone-ntp-linux-shell-gnome-command-line.html
 
-sudo date +%T -s "13:32:00"
+$ sudo date +%T -s "13:32:00"
+-------------------------------------------------------------------------------
+Show Argentina time in terminal
+
+$ TZ='America/Argentina' date
 
 ------------------------------------react-firebase--------------------------------------
 npm start Error: ENOSPC: System limit for number of file watchers reached
