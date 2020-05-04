@@ -1,6 +1,6 @@
 ---------------------------- setting projects ---------------------------------
 -------------------------------------------------------------------------------
-setting node app with es6
+setting up a node app with es6
 ```
 $ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node
 
