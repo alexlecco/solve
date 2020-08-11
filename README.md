@@ -467,6 +467,17 @@ unable to load script from assets index.android.bundle
 3) (In other terminal) react-native run-android
 
 -------------------------------------------------------------------------------
+function to clear asyncstorage
+```
+const clearAppData = async function() {
+    try {
+        const keys = await AsyncStorage.getAllKeys();
+        await AsyncStorage.multiRemove(keys);
+    } catch (error) {
+        console.error('Error clearing app data.');
+    }
+}
+```
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
