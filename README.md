@@ -672,6 +672,15 @@ Create a Desktop Shortcut on GNOME Desktop
 sudo apt-get install --no-install-recommends gnome-panel 
 sudo gnome-desktop-item-edit /usr/share/applications --create-new 
 -------------------------------------------------------------------------------
+Webpacker configuration file not found - Rails 6.0.0
+https://stackoverflow.com/questions/57891751/webpacker-configuration-file-not-found-rails-6-0-0
+
+Since Rails 6, Webpacker is the default JavaScript compiler. So you'll also have to set it up before starting your Rails server.
+
+Install yarn using your OS package manager, or take a look at https://yarnpkg.com/en/docs/install
+Set it up rails webpacker:install
+Make sure all packages are up to date yarn install --check-files
+Start your Rails server rails s
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
