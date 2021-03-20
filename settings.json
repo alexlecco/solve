@@ -1,14 +1,19 @@
 {
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai",
-    "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#ae00ff",
-        "editor.selectionHighlightBackground": "#ae00ff"
-    },
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": { "javascript": "javascriptreact",
-        "vue-html": "html",
-        "razor": "html",
-        "plaintext": "jade" },
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#ae00ff",
+    "editor.selectionHighlightBackground": "#ae00ff"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+  }
 }
