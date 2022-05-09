@@ -262,6 +262,10 @@ restart GUI
 $ sudo service lightdm restart
 $ sudo systemctl restart gdm (Ubuntu)
 -------------------------------------------------------------------------------
+elementary os dpkg: error processing archive /var/cache/apt/archives/libgranite5_5.3.0-1_amd64.deb (--unpack):
+
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/libgranite5_5.3.0-1_amd64.deb
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
