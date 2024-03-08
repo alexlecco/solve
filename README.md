@@ -371,6 +371,7 @@ in user settings:
 -------------------------------------------------------------------------------
 enable Emmet expansion when press tab
 
+```
 in USER SETTINGS
 {
   "emmet.triggerExpansionOnTab": true,
@@ -381,7 +382,9 @@ in USER SETTINGS
       "plaintext": "jade"
   },
 }
+```
 -------------------------------------------------------------------------------
+```
 {
     "breadcrumbs.enabled": true,
     "editor.tabSize": 2,
@@ -396,6 +399,7 @@ in USER SETTINGS
     "workbench.colorTheme": "Monokai",
     "window.titleBarStyle": "native"
 }
+```
 -------------------------------------------------------------------------------
 ------------------------------Elementary OS-----------------------------------
 How to disable desktop switch on fullscreen
